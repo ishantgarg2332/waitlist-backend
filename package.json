@@ -1,0 +1,31 @@
+{
+  "name": "waitlist",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap \"test/**/*.test.js\"",
+    "start": "fastify start -l info app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^4.0.0",
+    "@fastify/cors": "^8.1.1",
+    "@fastify/sensible": "^4.0.0",
+    "fastify": "^4.0.0",
+    "fastify-cli": "^2.15.0",
+    "fastify-plugin": "^3.0.0",
+    "nanoid": "^3.0.0",
+    "pg": "^8.8.0",
+    "standard": "^17.0.0"
+  },
+  "devDependencies": {
+    "tap": "^15.1.6"
+  }
+}
